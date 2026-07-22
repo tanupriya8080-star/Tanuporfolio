@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tanu Priya is a Computer Science Engineering student and front-end developer building responsive web experiences and data-driven insights."
+    />
+    <title>Tanu Priya | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sticky header with navigation -->
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="#home">Tanu Priya</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content of the portfolio -->
+    <main id="home">
+      <section class="hero section container">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Computer Science Engineering Student | Front-End Developer | Data Analytics Enthusiast</p>
+          <h1>Hi, I’m <span>Tanu Priya</span></h1>
+          <p class="hero-intro">
+            I’m a <span class="typing-text" id="typing-text"></span>
+          </p>
+          <p class="hero-description">
+            Building responsive web experiences and transforming data into meaningful insights.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="assets/files/resume.pdf" download>Download Resume</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <img src="assets/profile.jpg.png" alt="Portrait of Tanu Priya" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Driven by curiosity and clean design</h2>
+        </div>
+
+        <div class="about-grid reveal">
+          <div class="about-card">
+            <p>
+              I’m passionate about front-end development and enjoy building responsive, user-friendly websites that make digital experiences feel effortless.
+            </p>
+            <p>
+              I’m also deeply interested in data analytics, where I enjoy turning raw data into meaningful stories through analysis, visualization, and problem-solving.
+            </p>
+          </div>
+          <div class="about-card">
+            <p>
+              I bring a strong analytical mindset, attention to detail, and a constant eagerness to learn new technologies and improve my craft.
+            </p>
+            <p>
+              My goal is to combine design, technology, and data insight to create practical solutions that truly help users.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools, languages, and concepts I work with</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive Design</li>
+              <li>DOM Manipulation</li>
+              <li>LocalStorage</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Programming</h3>
+            <ul>
+              <li>Python</li>
+              <li>Java (Basic)</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Data Analytics</h3>
+            <ul>
+              <li>SQL</li>
+              <li>MySQL</li>
+              <li>Excel</li>
+              <li>Power BI</li>
+              <li>Data Cleaning</li>
+              <li>EDA</li>
+              <li>Data Visualization</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Core CS</h3>
+            <ul>
+              <li>DBMS</li>
+              <li>Operating Systems</li>
+              <li>Computer Networks</li>
+              <li>Data Structures</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Tools</h3>
+            <ul>
+              <li>VS Code</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Google Colab</li>
+              <li>MySQL Workbench</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work that reflects my interests</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <h3>AI-Powered Smart Retail Sales Analysis & Demand Prediction System</h3>
+            <p>
+              Performed data cleaning, exploratory data analysis, SQL analysis, Power BI dashboard creation, and machine learning using Linear Regression and Random Forest for demand prediction.
+            </p>
+            <span>Python · SQL · Power BI · Excel · Machine Learning</span>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>AI-Based Breast Cancer Detection System</h3>
+            <p>
+              Built a machine learning model for early breast cancer prediction with Flask deployment.
+            </p>
+            <span>Python · Flask · Scikit-Learn</span>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Event Management Platform</h3>
+            <p>
+              Created a responsive frontend application with Organizer, Participant, and Judge roles using LocalStorage.
+            </p>
+            <span>HTML · CSS · JavaScript</span>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Library Management System</h3>
+            <p>
+              Developed a DBMS project for managing books, members, issue/return records, and fines.
+            </p>
+            <span>MySQL · DBMS</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Hands-on learning and practical exposure</h2>
+        </div>
+
+        <div class="experience-card reveal">
+          <h3>Data Science Intern</h3>
+          <p>
+            Worked with Python, SQL, Power BI, data cleaning, visualization, and reporting to support analytical tasks and reporting needs.
+          </p>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+            <li>Data Cleaning</li>
+            <li>Visualization</li>
+            <li>Reporting</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="achievements" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Achievements</p>
+          <h2>Recognitions and learning milestones</h2>
+        </div>
+
+        <div class="achievements-list reveal">
+          <div class="achievement-item">Winner of Cybersecurity Quiz</div>
+          <div class="achievement-item">Participated in cybersecurity workshop</div>
+          <div class="achievement-item">Built multiple academic and personal projects</div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect</h2>
+        </div>
+
+        <div class="contact-grid reveal">
+          <div class="contact-card">
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:hello@tanupriya.com">hello@tanupriya.com</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">linkedin.com/in/tanupriya</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com" target="_blank" rel="noreferrer">github.com/tanupriya</a></li>
+              <li><strong>Location:</strong> Greater Noida, India</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Your email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write a short message"></textarea>
+
+            <p class="form-message" id="form-message" aria-live="polite"></p>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Tanu Priya. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button class="to-top" id="to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
